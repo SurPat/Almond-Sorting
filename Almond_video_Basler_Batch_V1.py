@@ -193,6 +193,7 @@ def Almond_Qual(frame):
 
 
         cv2.imshow("output", frame)
+        ret frame
         # cv2.waitKey(0)
         key = cv2.waitKey(1)
     except:
